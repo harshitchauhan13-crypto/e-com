@@ -7,7 +7,7 @@ const productDiv = document.querySelector(".product");
 const productArr = [];
 
 let updateIndex = null;
-
+let a;
 let ui = () => {
     productDiv.innerHTML = "";
     productArr.forEach((elem,index) => {
